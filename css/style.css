@@ -8,8 +8,9 @@ body{
     background-color:#FFF;
 border-bottom:1px solid #e7e9fc;}
 
-.section{padding-top:120px ;
-padding-bottom: 120px;}
+.section{
+    padding-top:120px ;
+    padding-bottom: 120px;}
 .container{
     display: flex;
     width: 1158px;
@@ -17,9 +18,11 @@ padding-bottom: 120px;}
     padding-left: 15px ; 
     padding-right: 15px;
 }
-.nav{display: flex;
+.nav{
+    display: flex;
     align-items: center;}
 .titleweb{
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -29,11 +32,11 @@ padding-bottom: 120px;}
     letter-spacing: 0.03em;
     }
 .span{color:#2e2f42;}
-.links{display:flex;
-gap: 40px;
-padding-top: 24px;
-padding-bottom: 24px;}
-.contacts{margin-right: 0;}
+.links{
+    display:flex;
+    gap: 40px;
+}
+
 .link{ 
     color:#2e2f42;
     font-size: 16px;
@@ -44,14 +47,30 @@ padding-bottom: 24px;}
     }
 .link:hover:hover{color: #404bbf;}
 .link:focus:focus{color:#404bbf;}
+.studio{
+    padding-top: 24px;
+    padding-bottom: 24px;}
+.portfolio{
+    padding-top: 24px;
+    padding-bottom: 24px;}
+.contacts{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 0;}
 
-.adress{font-style: normal;
-}
+.adress{
+    font-style: normal;}
 .links-2{
     display: flex;
     gap: 40px;
+    }
+.email{
     padding-top: 24px;
     padding-bottom: 24px;}
+.tel{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .info{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -65,9 +84,12 @@ padding-bottom: 24px;}
 
 
 
-.main-title{background:#2E2F42;}
-
+.section-1{background:#2E2F42;}
+.container{
+    padding-top: 188px; 
+    padding-bottom: 188px;}
 .esyb{
+    max-width: 496px;
     font-family: "Roboto", sans-serif;
     color: #FFF;
     text-align: center;
@@ -78,6 +100,11 @@ padding-bottom: 24px;}
     font-size: 56px;
     line-height: 1.07;}
 .button-main{
+    border-radius: 4px;
+    border: none;
+    height: 56px ;
+    min-width: 169px;
+    display: block;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     color:#ffffff;
