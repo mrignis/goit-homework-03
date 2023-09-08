@@ -11,7 +11,8 @@ border-bottom:1px solid #e7e9fc;}
 .section{
     padding-top:120px ;
     padding-bottom: 120px;}
-.container{
+.container-1
+{
     display: flex;
     width: 1158px;
     margin:  auto;
@@ -84,10 +85,11 @@ border-bottom:1px solid #e7e9fc;}
 
 
 
-.section-1{background:#2E2F42;}
-.container{
+.section-1{background:#2E2F42;
     padding-top: 188px; 
     padding-bottom: 188px;}
+.container{
+    }
 .esyb{
     max-width: 496px;
     font-family: "Roboto", sans-serif;
