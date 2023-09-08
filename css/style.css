@@ -2,8 +2,14 @@ html
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;}
-.header{background-color:#FFF;}
+    background-color: #FFFFFF;
+}
+.header{
+    background-color:#FFF;
+width: 1440px;
+height: 72px;}
+
+
 .titleweb{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -14,7 +20,6 @@ body{
     letter-spacing: 0.03em;
     }
 .span{color:#2e2f42;}
-
 
 .link{ 
     color:#2e2f42;
@@ -27,7 +32,8 @@ body{
 .link:hover:hover{color: #404bbf;}
 .link:focus:focus{color:#404bbf;}
 
-.adress{font-style: normal;}
+.adress{font-style: normal;
+ display: inline;}
 .info{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -41,7 +47,9 @@ body{
 
 
 
-.main-title{background:#2E2F42;}
+.main-title{background:#2E2F42;
+    width: 1440px;
+    height: 600px;}
 
 .esyb{
     font-family: "Roboto", sans-serif;
