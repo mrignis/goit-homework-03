@@ -14,7 +14,7 @@ border-bottom:1px solid #e7e9fc;}
 
 
     
-.container-1
+.container
 {  
     display: flex;
     width: 1158px;
@@ -93,7 +93,7 @@ border-bottom:1px solid #e7e9fc;}
     padding-top: 188px; 
     padding-bottom: 188px;}
 
-.container-2 
+
 
     .esyb{
     max-width: 496px;
@@ -151,7 +151,7 @@ border-bottom:1px solid #e7e9fc;}
         letter-spacing: 0.02em;}
 
 
-.staff{ background-color: #F4F4FD}
+.container{ background-color: #F4F4FD}
 
 .team {
     color: #2e2f42;
