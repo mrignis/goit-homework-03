@@ -12,9 +12,12 @@ border-bottom:1px solid #e7e9fc;}
     padding-top:120px ;
     padding-bottom: 120px;}
 .container-1.container
+    {  display: flex;
+        width: 1158px;}
+    
+.container-1.
 {
-    display: flex;
-    width: 1158px;
+   
     margin:  auto;
     padding-left: 15px ; 
     padding-right: 15px;
@@ -57,7 +60,7 @@ border-bottom:1px solid #e7e9fc;}
 .contacts{
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 0;}
+    }
 
 .adress{
     font-style: normal;}
@@ -88,6 +91,7 @@ border-bottom:1px solid #e7e9fc;}
 .section-1{background:#2E2F42;
     padding-top: 188px; 
     padding-bottom: 188px;}
+.container-2 .container
 .esyb{
     max-width: 496px;
     font-family: "Roboto", sans-serif;
