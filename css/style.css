@@ -150,10 +150,15 @@ border-bottom:1px solid #e7e9fc;}
         line-height: 1.5;
         letter-spacing: 0.02em;}
 
+.section-5{
+    padding: 120px 0 120px ;
+    background-color: #F4F4FD}
 
-.container{ background-color: #F4F4FD}
-
-.team {
+.container{ 
+    padding-top: 32px; 
+    padding-bottom: 32px;}}
+.team { 
+    margin-bottom: 72px;
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -161,10 +166,19 @@ border-bottom:1px solid #e7e9fc;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.products{
+    display: flex;
+    gap: 24px;
+}
 .product{
-    background-color:#FFFFFF; }
+    background-color:#FFFFFF; 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;}
+
 
 .name{ 
+    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -176,10 +190,11 @@ border-bottom:1px solid #e7e9fc;}
     font-size: 16px;
     letter-spacing:0.02em;
     line-height: 1.5;
-    color: #434455;}
+    color: #434455;
+    text-align: center;}
 
 
-.container{display:flex;}
+
 
 .our-port{
     font-size: 36px;
