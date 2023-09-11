@@ -12,14 +12,14 @@ border-bottom:1px solid #e7e9fc;}
     padding-top:120px ;
     padding-bottom: 120px;}
 
-
+img{display: block;}
     
 .container 
-{  
+{ 
+    padding-right: 15px;
+    padding-left: 15px; 
     width: 1158px;
     margin:  auto;
-    padding-left: 15px ;
-    padding-right: 15px;
     display: flex;
 }
 .nav{
@@ -99,7 +99,7 @@ border-bottom:1px solid #e7e9fc;}
 
 
 
-    .esyb{
+.esyb{
     max-width: 496px;
     font-family: "Roboto", sans-serif;
     color: #FFF;
@@ -133,14 +133,17 @@ border-bottom:1px solid #e7e9fc;}
 
 
 
-.sneak .visually-hidden{margin-bottom: 8px;}
+.visually-hidden
+{margin-bottom: 8px;
+    display: none;
+}
 
 .skills{
     display: flex;
     gap: 24px;}
 .one{width: calc((100% - 72px) / 4); }
 .two{width: calc((100% - 72px) / 4); }
-.tree{width: calc((100% - 72px) / 4); }
+.three{width: calc((100% - 72px) / 4); }
 .four{width: calc((100% - 72px) / 4); }
 
 .stra{
@@ -155,14 +158,15 @@ border-bottom:1px solid #e7e9fc;}
         line-height: 1.5;
         letter-spacing: 0.02em;}
 
-.section-5{
+.section-three{
     padding: 120px 0 120px ;
     background-color: #F4F4FD}
 
-.container{ 
+.container-three{ 
     padding-top: 32px; 
-    padding-bottom: 32px;}}
-.team { 
+    padding-bottom: 32px;}
+
+    .team { 
     
     margin-bottom: 72px;
     color: #2e2f42;
@@ -177,22 +181,29 @@ border-bottom:1px solid #e7e9fc;}
     display: flex;
     gap: 24px;
 }
-.img{display:block;}
+
 .total{ 
     padding-top: 32px; 
     padding-bottom: 32px;}
+
+
 .product-a{
     background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;}
+    border-radius: 0px 0px 4px 4px;
+    }
+
 .product-b{
-        background-color:#FFFFFF; 
-        border-radius: 0px 0px 4px 4px;}
+    background-color:#FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+  }
 .product-c{
-            background-color:#FFFFFF; 
-            border-radius: 0px 0px 4px 4px;}
+    background-color:#FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+    }
 .product-d{
-                background-color:#FFFFFF; 
-                border-radius: 0px 0px 4px 4px;}
+    background-color:#FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+    }
 
 .name{ 
     text-align: center;
