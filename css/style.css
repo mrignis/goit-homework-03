@@ -14,13 +14,14 @@ border-bottom:1px solid #e7e9fc;}
 
 
     
-.container
+.container-one 
 {  
-    display: flex;
     width: 1158px;
     margin:  auto;
-    padding-left: 15px ; 
-    padding-right: 15px;
+    padding-left: 15px ;
+    padding-right: 15px;}
+.container-one  .container{
+    display: flex;
 }
 .nav{
     display: flex;
@@ -40,7 +41,6 @@ border-bottom:1px solid #e7e9fc;}
     display:flex;
     gap: 40px;
 }
-
 .link{ 
     color:#2e2f42;
     font-size: 16px;
@@ -54,24 +54,29 @@ border-bottom:1px solid #e7e9fc;}
 .studio{
     padding-top: 24px;
     padding-bottom: 24px;}
-.portfolio{
+
+    .portfolio{
     padding-top: 24px;
     padding-bottom: 24px;}
-.contacts{
+
+    .contacts{
     padding-top: 24px;
     padding-bottom: 24px;
     }
 
-.adress{
+
+    .adress{
     font-style: normal;}
-.links-2{
+
+    .links-two{
     display: flex;
     gap: 40px;
     }
 .email{
     padding-top: 24px;
     padding-bottom: 24px;}
-.tel{
+
+    .tel{
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -88,7 +93,7 @@ border-bottom:1px solid #e7e9fc;}
 
 
 
-.section-1{
+.section-one{
     background:#2E2F42;
     padding-top: 188px; 
     padding-bottom: 188px;}
@@ -129,7 +134,8 @@ border-bottom:1px solid #e7e9fc;}
 
 
 
-.sneak.visually-hidden{margin-bottom: 8px;}
+.sneak .visually-hidden{margin-bottom: 8px;}
+
 .skills{
     display: flex;
     gap: 24px;}
@@ -158,6 +164,7 @@ border-bottom:1px solid #e7e9fc;}
     padding-top: 32px; 
     padding-bottom: 32px;}}
 .team { 
+    
     margin-bottom: 72px;
     color: #2e2f42;
     font-size: 36px;
@@ -167,14 +174,26 @@ border-bottom:1px solid #e7e9fc;}
     text-transform: capitalize;
 }
 .products{
+    width: calc((100% - 72px) / 4);
     display: flex;
     gap: 24px;
 }
-.product{
+.img{display:block;}
+.total{ 
+    padding-top: 32px; 
+    padding-bottom: 32px;}
+.product-a{
     background-color:#FFFFFF; 
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;}
-
+.product-b{
+        background-color:#FFFFFF; 
+        border-radius: 0px 0px 4px 4px;}
+.product-c{
+            background-color:#FFFFFF; 
+            border-radius: 0px 0px 4px 4px;}
+.product-d{
+                background-color:#FFFFFF; 
+                border-radius: 0px 0px 4px 4px;}
 
 .name{ 
     text-align: center;
