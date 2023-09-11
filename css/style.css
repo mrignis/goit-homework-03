@@ -2,31 +2,9 @@ html
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-}
-.header{
-    background-color:#FFF;
-border-bottom:1px solid #e7e9fc;}
-
-.section{
-    padding-top:120px ;
-    padding-bottom: 120px;}
-
-img{display: block;}
-    
-.container 
-{ 
-    padding-right: 15px;
-    padding-left: 15px; 
-    width: 1158px;
-    margin:  auto;
-    display: flex;
-}
-.nav{
-    display: flex;
-    align-items: center;}
+    background-color: #FFFFFF;}
+.header{background-color:#FFF;}
 .titleweb{
-    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -36,10 +14,8 @@ img{display: block;}
     letter-spacing: 0.03em;
     }
 .span{color:#2e2f42;}
-.links{
-    display:flex;
-    gap: 40px;
-}
+
+
 .link{ 
     color:#2e2f42;
     font-size: 16px;
@@ -50,35 +26,8 @@ img{display: block;}
     }
 .link:hover:hover{color: #404bbf;}
 .link:focus:focus{color:#404bbf;}
-.studio{
-    padding-top: 24px;
-    padding-bottom: 24px;}
 
-    .port{
-    padding-top: 24px;
-    padding-bottom: 24px;}
-
-    .con{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    }
-
-
-    .adress{
-    font-style: normal;}
-
-    .links-two{
-    display: flex;
-    gap: 40px;
-    }
-.email{
-    padding-top: 24px;
-    padding-bottom: 24px;}
-
-    .tel{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+.adress{font-style: normal;}
 .info{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -92,15 +41,9 @@ img{display: block;}
 
 
 
-.section{
-    background:#2E2F42;
-    padding-top: 188px; 
-    padding-bottom: 188px;}
-
-
+.main-title{background:#2E2F42;}
 
 .esyb{
-    max-width: 496px;
     font-family: "Roboto", sans-serif;
     color: #FFF;
     text-align: center;
@@ -110,15 +53,7 @@ img{display: block;}
     letter-spacing: 1.12px;
     font-size: 56px;
     line-height: 1.07;}
-    
-
-
-    .button-main{
-    border-radius: 4px;
-    border: none;
-    height: 56px ;
-    min-width: 169px;
-    display: block;
+.button-main{
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     color:#ffffff;
@@ -126,25 +61,9 @@ img{display: block;}
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-}
+    letter-spacing: 0.04em;}
 .button-main:hover{background-color: #404BBF;}
 .button-main:focus{background-color: #404BBF;}
-
-
-
-.visually-hidden
-{margin-bottom: 8px;
-    display: none;
-}
-
-.skills{
-    display: flex;
-    gap: 24px;}
-.one{width: calc((100% - 72px) / 4); }
-.two{width: calc((100% - 72px) / 4); }
-.three{width: calc((100% - 72px) / 4); }
-.four{width: calc((100% - 72px) / 4); }
 
 .stra{
     font-weight: 500;
@@ -152,23 +71,17 @@ img{display: block;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;}
-
-    .text-str{
+.text-str{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
 
-.section-three{
-    padding: 120px 0 120px ;
-    background-color: #F4F4FD}
+     
+  
 
-.container-three{ 
-    padding-top: 32px; 
-    padding-bottom: 32px;}
+.staff{ background-color: #F4F4FD}
 
-    .team { 
-    
-    margin-bottom: 72px;
+.team {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -176,38 +89,10 @@ img{display: block;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.products{
-    width: calc((100% - 72px) / 4);
-    display: flex;
-    gap: 24px;
-}
-
-.total{ 
-    padding-top: 32px; 
-    padding-bottom: 32px;}
-
-
-.product-a{
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;
-    }
-
-.product-b{
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;
-  }
-.product-c{
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;
-    }
-.product-d{
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;
-    }
+.product{
+    background-color:#FFFFFF; }
 
 .name{ 
-    text-align: center;
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -219,9 +104,7 @@ img{display: block;}
     font-size: 16px;
     letter-spacing:0.02em;
     line-height: 1.5;
-    color: #434455;
-    text-align: center;}
-
+    color: #434455;}
 
 
 
@@ -233,8 +116,7 @@ img{display: block;}
     text-transform: capitalize;
     color:#2e2f42;
     }  
-
-    .first{
+.first{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
