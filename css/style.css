@@ -14,13 +14,12 @@ border-bottom:1px solid #e7e9fc;}
 
 
     
-.container-one 
+.container 
 {  
     width: 1158px;
     margin:  auto;
     padding-left: 15px ;
-    padding-right: 15px;}
-.container-one  .container{
+    padding-right: 15px;
     display: flex;
 }
 .nav{
@@ -55,11 +54,11 @@ border-bottom:1px solid #e7e9fc;}
     padding-top: 24px;
     padding-bottom: 24px;}
 
-    .portfolio{
+    .port{
     padding-top: 24px;
     padding-bottom: 24px;}
 
-    .contacts{
+    .con{
     padding-top: 24px;
     padding-bottom: 24px;
     }
