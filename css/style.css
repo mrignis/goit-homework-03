@@ -310,11 +310,11 @@ img{display:block;}
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px } 
-.image
-.image-pay 
-.image-medi
-.image-taxi
-.image-screen 
+.image{ width: calc((100% - 48px) / 3);}
+.image-pay{ width: calc((100% - 48px) / 3);} 
+.image-medi{ width: calc((100% - 48px) / 3);}
+.image-taxi{ width: calc((100% - 48px) / 3);}
+.image-screen{ width: calc((100% - 48px) / 3);}
 .image-online{ width: calc((100% - 48px) / 3);}
 
 .bank{
