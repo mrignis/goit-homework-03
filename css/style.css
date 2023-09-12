@@ -224,70 +224,17 @@ img{display:block;}
 
 .guer{padding-top: 32px; 
     padding-bottom: 32px;}
-.ford{padding-top: 32px;  
-    padding-bottom: 32px;}
-.garc{padding-top: 32px; 
-    padding-bottom: 32px;}
-.wil{padding-top: 32px; 
-    padding-bottom: 32px;}
-.name-guer{ 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
-}
-.name-ford{ 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
-}
-.name-garc{ 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
-}
-.name-wil{ 
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
-}
 
-.text-guer{ 
-    font-size: 16px;
-    letter-spacing:0.02em;
-    line-height: 1.5;
-    color: #434455;
-    text-align: center;}
-
-.text-ford{ 
-    font-size: 16px;
-    letter-spacing:0.02em;
-    line-height: 1.5;
-    color: #434455;
-    text-align: center;}
-
-.text-garc{ 
-    font-size: 16px;
-    letter-spacing:0.02em;
-    line-height: 1.5;
-    color: #434455;
-    text-align: center;}
-.text-wil{ 
+.name{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.text{ 
     font-size: 16px;
     letter-spacing:0.02em;
     line-height: 1.5;
@@ -310,20 +257,10 @@ img{display:block;}
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px } 
+
 .image{ width: calc((100% - 48px) / 3);}
-.image-pay{ width: calc((100% - 48px) / 3);} 
-.image-medi{ width: calc((100% - 48px) / 3);}
-.image-taxi{ width: calc((100% - 48px) / 3);}
-.image-screen{ width: calc((100% - 48px) / 3);}
-.image-online{ width: calc((100% - 48px) / 3);}
 
-.bank{
-
-.cash
-.med
-.servic
-.screen
-.online{padding: 32px 16px;
+.work{padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
     }
@@ -343,21 +280,22 @@ img{display:block;}
 }
 
 
-.footer{background-color:#2E2F42;}
+.footer{background-color:#2E2F42;
+    padding-top: 100px; 
+    padding-bottom: 100px;}
 
-    .titlefoot{
+.titlefoot{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block; 
-    margin-bottom: 16px;
-}
+    color: #4d5ae5;display: inline-block; margin-bottom: 16px;}
+    
 
-.footer-span{color:#f4f4fd;}
+.footer-span{color:#f4f4fd;
+}
 
 .foot-text{color:#F4F4FD;
     line-height: 1.5;
