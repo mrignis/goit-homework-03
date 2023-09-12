@@ -9,11 +9,11 @@ img{display:block;}
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
 .container{
-    display: flex;
+   
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px }
-.additional-default
+.additional-default{ display: flex;}
 .menu{
     display: flex;
     align-items:center;
@@ -194,7 +194,9 @@ img{display:block;}
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px ;} 
+    row-gap: 48px ;
+    margin:0;
+padding: 0;} 
 
 .image .first-item {
     width: calc((100% - 48px) / 3);}
