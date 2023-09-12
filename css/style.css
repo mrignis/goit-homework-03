@@ -8,9 +8,10 @@ img{display:block;}
 .header{
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
-.container{display: flex;}
+.container{display: flex; 
+    width: 1158px;}
 .additional-default{
-    width: 1158px; 
+    
     margin: 0 auto;
     padding: 0 15px ;
 }
@@ -240,7 +241,9 @@ img{display:block;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;display: inline-block; margin-bottom: 16px;}
+    color: #4d5ae5;
+    display:inline-block; 
+    margin-bottom: 16px;}
     
 
 .footer-span{color:#f4f4fd;
