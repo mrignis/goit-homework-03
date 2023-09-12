@@ -32,12 +32,9 @@ img{display:block;}
     display: flex;
     gap: 40px ;
     padding: 24px 0;}
-.links .studio{ padding-top: 24px;
+.link{ padding-top: 24px;
     padding-bottom: 24px;}
-.links .portfolio{ padding-top: 24px; 
-    padding-bottom: 24px;}
-.links .contacts{ padding-top: 24px;
-    padding-bottom: 24px;}   
+ 
 
 .link-studio{ 
     color:#2e2f42;
@@ -77,8 +74,7 @@ img{display:block;}
     display: flex;
     gap: 40px ;
 }
-.email{padding: 24px 0;}
-.tel{padding: 24px 0;}
+
 .info{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -138,34 +134,9 @@ img{display:block;}
 .skills{
     display: flex;
     gap: 24px;}
-.skills .one{ flex-basis: calc((100% - 72px) / 4)}
-.skills .two{ flex-basis: calc((100% - 72px) / 4)}
-.skills .three{ flex-basis: calc((100% - 72px) / 4)}
-.skills .four{ flex-basis: calc((100% - 72px) / 4)}
+.one{ flex-basis: calc((100% - 72px) / 4)}
+
 .one .stra-one{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px; }
-
-.two  .stra-two{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px; }
-
-.three .stra-thre{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px; }
-.four .stra-four{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -176,18 +147,7 @@ img{display:block;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.text-two{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;}
-.text-three{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;}
-.text-four{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;}
+
 
 .staff{
     background-color: #F4F4FD;
@@ -205,22 +165,11 @@ img{display:block;}
 .products{ 
     display: flex;
     gap: 24px;}
-.product-one{
+.product{
     flex-basis: calc((100% - 3 * 24px) / 4)
     background-color:#FFFFFF; 
     border-radius: 0px 0px 4px 4px;}
-.product-two{
-    flex-basis: calc((100% - 3 * 24px) / 4)
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;}
-.product-three{
-    flex-basis: calc((100% - 3 * 24px) / 4)
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;}
-.product-four{
-    flex-basis: calc((100% - 3 * 24px) / 4)
-    background-color:#FFFFFF; 
-    border-radius: 0px 0px 4px 4px;}
+
 
 .guer{padding-top: 32px; 
     padding-bottom: 32px;}
