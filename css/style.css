@@ -195,10 +195,8 @@ img{display:block;}
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px ;
-    padding: 0;
-    margin: 0;} 
+    width: calc((100% - 48px) / 3);} 
 
-.image{ width: calc((100% - 48px) / 3);}
 
 
 .work{padding: 32px 16px;
