@@ -113,9 +113,9 @@ img{display:block;}
 .skills{
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4)}
+    }
 
-
+.one{flex-basis: calc((100% - 3 * 24px) / 4);}
 .stra-one{
     font-weight: 500;
     font-size: 20px;
@@ -145,9 +145,10 @@ img{display:block;}
 .products{ 
     display: flex;
     gap: 24px;
-   width: calc((100% - 72px) / 4);}
+   }
 .product{
     background-color:#FFFFFF; 
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;}
 
 
