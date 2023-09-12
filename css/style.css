@@ -8,12 +8,12 @@ img{display:block;}
 .header{
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
-.container{display: flex;}
-.additional-default{
+.container{
+    display: flex;
     width: 1158px; 
     margin: 0 auto;
-    padding: 0 15px ;
-}
+    padding: 0 15px }
+.additional-default
 .menu{
     display: flex;
     align-items:center;
@@ -106,6 +106,8 @@ img{display:block;}
     margin: -1px;
     padding: 0;
     border: 0;
+    clip-path: (100%);
+    white-space: nowrap;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
 }
@@ -113,6 +115,8 @@ img{display:block;}
 .skills{
     display: flex;
     gap: 24px;
+    padding: 0;
+    margin: 0;
     }
 
 .one{flex-basis: calc((100% - 3 * 24px) / 4);}
@@ -144,8 +148,7 @@ img{display:block;}
 
 .products{ 
     display: flex;
-    gap: 24px;
-   }
+    gap: 24px;}
 .product{
     background-color:#FFFFFF; 
     width: calc((100% - 72px) / 4);
