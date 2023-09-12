@@ -99,8 +99,17 @@ img{display:block;}
 .button-main:focus{background-color: #404BBF;}
 
 .main-text{padding: 120px 0 120px}
-.visually-hidden{
-    visibility: hidden;}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+
 .skills{
     display: flex;
     gap: 24px;
