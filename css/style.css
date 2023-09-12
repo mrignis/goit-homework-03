@@ -8,10 +8,9 @@ img{display:block;}
 .header{
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
-.container{display: flex; 
-    width: 1158px;}
+.container{display: flex;}
 .additional-default{
-    
+    width: 1158px; 
     margin: 0 auto;
     padding: 0 15px ;
 }
@@ -33,11 +32,7 @@ img{display:block;}
     display: flex;
     gap: 40px ;
     padding: 24px 0;}
-.link{ padding-top: 24px;
-    padding-bottom: 24px;}
- 
-
-.link-studio{ 
+.lin{ 
     color:#2e2f42;
     font-size: 16px;
     font-style: normal;
@@ -45,30 +40,8 @@ img{display:block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.link-studio:hover{color: #404bbf;}
-.link-studio:focus{color:#404bbf;}
-
-.link-portfoli{ 
-    color:#2e2f42;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.link-portfoli:hover{color: #404bbf;}
-.link-portfoli:focus{color:#404bbf;}
-
-.link-contacts{ 
-    color:#2e2f42;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-.link-contacts:hover{color: #404bbf;}
-.link-contacts:focus{color:#404bbf;}
+.link:hover{color: #404bbf;}
+.lin:focus{color:#404bbf;}
 
 .adress{font-style: normal;}
 .links-two{ 
@@ -124,20 +97,13 @@ img{display:block;}
 
 .main-text{padding: 120px 0 120px}
 .visually-hidden{
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        border: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);}
+    visibility: hidden;}
 .skills{
     display: flex;
     gap: 24px;}
 .one{ flex-basis: calc((100% - 72px) / 4)}
 
-.one .stra-one{
+.stra-one{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
