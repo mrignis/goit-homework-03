@@ -34,6 +34,7 @@ img{display:block;}
 .links{
     display: flex;
     gap: 40px ;}
+.link{padding: 24px 0 ;}
 .lin{ 
     color:#2e2f42;
     font-size: 16px;
