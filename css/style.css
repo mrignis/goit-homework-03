@@ -30,11 +30,15 @@ img{display:block;}
 
 .links{
     display: flex;
-    gap: 40px ;}
+    gap: 40px ;
+    padding: 24px 0;}
+.links .studio{ padding-top: 24px;
+    padding-bottom: 24px;}
+.links .portfolio{ padding-top: 24px; 
+    padding-bottom: 24px;}
+.links .contacts{ padding-top: 24px;
+    padding-bottom: 24px;}   
 
-.studio{ padding: 24px 0;}
-.portfolio{ padding: 24px 0;}
-.contacts{ padding: 24px 0;}
 .link-studio{ 
     color:#2e2f42;
     font-size: 16px;
@@ -43,18 +47,20 @@ img{display:block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.link-studio:hover:hover{color: #404bbf;}
-.link-studio:focus:focus{color:#404bbf;}
-.link-portfolio{ 
+.link-studio:hover{color: #404bbf;}
+.link-studio:focus{color:#404bbf;}
+
+.link-portfoli{ 
     color:#2e2f42;
     font-size: 16px;
     font-style: normal;
     font-weight: 500; 
     line-height: 1.5;
     letter-spacing: 0.02em;
-        }
-.link-portfolio:hover:hover{color: #404bbf;}
-.link-portfolio:focus:focus{color:#404bbf;}
+}
+.link-portfoli:hover{color: #404bbf;}
+.link-portfoli:focus{color:#404bbf;}
+
 .link-contacts{ 
     color:#2e2f42;
     font-size: 16px;
@@ -63,8 +69,8 @@ img{display:block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-.link-contacts:hover:hover{color: #404bbf;}
-.link-contacts:focus:focus{color:#404bbf;}
+.link-contacts:hover{color: #404bbf;}
+.link-contacts:focus{color:#404bbf;}
 
 .adress{font-style: normal;}
 .links-two{ 
@@ -132,18 +138,11 @@ img{display:block;}
 .skills{
     display: flex;
     gap: 24px;}
-.one{ flex-basis: calc((100% - 72px) / 4)}
-.two{ flex-basis: calc((100% - 72px) / 4)}
-.three{ flex-basis: calc((100% - 72px) / 4)}
-.four{ flex-basis: calc((100% - 72px) / 4)}
-.stra-one{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px; }
-.stra-two{
+.skills .one{ flex-basis: calc((100% - 72px) / 4)}
+.skills .two{ flex-basis: calc((100% - 72px) / 4)}
+.skills .three{ flex-basis: calc((100% - 72px) / 4)}
+.skills .four{ flex-basis: calc((100% - 72px) / 4)}
+.one .stra-one{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -151,14 +150,22 @@ img{display:block;}
     color: #2e2f42;
     margin-bottom: 8px; }
 
-.stra-thre{
+.two  .stra-two{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px; }
-.stra-four{
+
+.three .stra-thre{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px; }
+.four .stra-four{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -310,7 +317,8 @@ img{display:block;}
 .image-screen 
 .image-online{ width: calc((100% - 48px) / 3);}
 
-.bank
+.bank{
+
 .cash
 .med
 .servic
