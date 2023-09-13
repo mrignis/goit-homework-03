@@ -6,17 +6,21 @@ body {
     background-color: #FFFFFF;
 }
 img{display:block;}
+ul{
+    margin: 0;
+padding: 0;}
+a{text-decoration: none;}
 .header{
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
-    .container{
+.container{
     width: 1158px; 
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;}
 
-.additional-default{ display: flex;
-}
+.additional-default{ 
+    display: flex;}
 
 .menu{
     display: flex;
@@ -41,7 +45,6 @@ img{display:block;}
     gap: 40px;
 }
 .head-menu-two{ 
-    text-decoration: none;
     color:#2e2f42;
     font-size: 16px;
     font-style: normal;
@@ -65,7 +68,6 @@ img{display:block;}
     gap: 40px;}
 
     .info{
-    text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
@@ -129,7 +131,6 @@ h1,h2,h3,p{margin: 0;}
     overflow: hidden;
     }
 .skills{
-    list-style: none;
     display: flex;
     gap: 24px;
     margin: 0;
@@ -138,7 +139,6 @@ h1,h2,h3,p{margin: 0;}
 
 .one{width: calc((100% - 72px) / 4);}
 .stra-one{
-    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -165,7 +165,6 @@ h1,h2,h3,p{margin: 0;}
     margin-bottom: 72px;}
 
 .products{ 
-    list-style: none;
     display: flex;
     gap: 24px;
     }
@@ -192,7 +191,6 @@ h1,h2,h3,p{margin: 0;}
     margin-bottom: 8px;
 }
 .text{  
-    text-decoration: none;
     font-size: 16px;
     letter-spacing:0.02em;
     line-height: 1.5;
@@ -213,7 +211,6 @@ h1,h2,h3,p{margin: 0;}
     margin-bottom: 72px; 
 }
 .presentation{ 
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -246,7 +243,8 @@ h1,h2,h3,p{margin: 0;}
 }
 
 
-.footer{background-color:#2E2F42;
+.footer{
+    background-color:#2E2F42;
     padding-top: 100px; 
     padding-bottom: 100px;}
 
@@ -259,9 +257,7 @@ h1,h2,h3,p{margin: 0;}
     text-transform: uppercase;
     color:#4d5ae5;
     letter-spacing: 0.03em;
-    margin-bottom: 16px;
-  
-}
+    margin-bottom: 16px;}
 .footer-span{color:#f4f4fd;}
 
 .foot-text{
