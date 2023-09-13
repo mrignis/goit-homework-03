@@ -6,10 +6,14 @@ body {
     background-color: #FFFFFF;
 }
 img{display:block;}
+
 ul{
     margin: 0;
-padding: 0;}
+    padding: 0;}
+
 a{text-decoration: none;}
+
+li{list-style: none;}
 .header{
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
@@ -40,7 +44,6 @@ a{text-decoration: none;}
 .span{color:#2e2f42;}
 
 .head-menu{
-    list-style: none;
     display: flex;
     gap: 40px;
 }
@@ -63,7 +66,6 @@ a{text-decoration: none;}
     }
 
 .links-two{ 
-    list-style: none;
     display:flex;
     gap: 40px;}
 
@@ -133,8 +135,6 @@ h1,h2,h3,p{margin: 0;}
 .skills{
     display: flex;
     gap: 24px;
-    margin: 0;
-    padding: 0;
     }
 
 .one{width: calc((100% - 72px) / 4);}
@@ -172,9 +172,7 @@ h1,h2,h3,p{margin: 0;}
     .product{
     background-color:#FFFFFF; 
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    padding: 0 ;
-    margin: 0;}
+    border-radius: 0px 0px 4px 4px;}
 
 
 .guer{
@@ -214,9 +212,7 @@ h1,h2,h3,p{margin: 0;}
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px ;
-    margin:0;
-    padding: 0;} 
+    row-gap: 48px ;} 
 
 .image  {
     width: calc((100% - 48px) / 3);}
