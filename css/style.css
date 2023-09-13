@@ -1,10 +1,17 @@
 html
-body{
+/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;}
-    
-img{display:block;}
+    background-color: #FFFFFF;
+}
+.img{display:block;}
 .header{
     background-color:#FFF;
     border-bottom: 1px solid #e7e9fc ;}
@@ -12,7 +19,8 @@ img{display:block;}
     .container{
     width: 1158px; 
     padding-left: 15px;
-    padding-right: 15px;margin: auto;}
+    padding-right: 15px;
+    margin: auto;}
 
 .additional-default{ display: flex;
 }
@@ -29,13 +37,15 @@ img{display:block;}
     text-transform: uppercase;
     color:#4d5ae5;
     letter-spacing: 0.03em;
-    margin-right: 76px ;}
+    margin-right: 76px; 
+}
 
 .span{color:#2e2f42;}
 
 .links{
-    display: flex;}
-.link{margin-right: 40px ;}
+    display: flex;
+}
+.link{margin-right: 40px;}
 .lin{ 
     color:#2e2f42;
     font-size: 16px;
@@ -49,13 +59,14 @@ img{display:block;}
 .lin:hover{color: #404bbf;}
 .lin:focus{color:#404bbf;}
 
-.adress{font-style: normal;}
+.adress{font-style: normal;
+    }
 
 .links-two{ 
-    display: flex;}
+    display:flex;
+    gap: 40px;
+    flex-shrink:0;}
 
-.email{margin-right: 40px;}
-.tel{margin-right: 40px;}
     .info{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -68,7 +79,8 @@ img{display:block;}
 
 
 
-.main-title{background:#2E2F42;
+.main-title{
+    background:#2E2F42;
     padding-top: 188px;
     padding-bottom:188px ;}
 
@@ -81,7 +93,8 @@ img{display:block;}
     letter-spacing: 1.12px;
     font-size: 56px;
     line-height: 107.143%;
-    max-width: 496px;}
+    max-width: 496px;
+    margin: 0;}
 
     .button-main{
     font-family: "Roboto", sans-serif;
