@@ -11,11 +11,11 @@ img{display:block;}
 
     .container{
     width: 1158px; 
-    margin: auto;
     padding-left: 15px;
-    padding-right: 15px;}
+    padding-right: 15px;margin: auto;}
 
-.additional-default{ display: flex;}
+.additional-default{ display: flex;
+}
 
 .menu{
     display: flex;
@@ -34,8 +34,7 @@ img{display:block;}
 .span{color:#2e2f42;}
 
 .links{
-    display: flex;
-    gap: 40px ;}
+    display: flex;}
 .link{margin-right: 40px ;}
 .lin{ 
     color:#2e2f42;
@@ -53,8 +52,7 @@ img{display:block;}
 .adress{font-style: normal;}
 
 .links-two{ 
-    display: flex;
-    gap: 40px ;}
+    display: flex;}
 
 .email{margin-right: 40px;}
 .tel{margin-right: 40px;}
@@ -72,11 +70,9 @@ img{display:block;}
 
 .main-title{background:#2E2F42;
     padding-top: 188px;
-    padding-bottom:188px ;
-    align-content:center;}
+    padding-bottom:188px ;}
 
 .esyb{
-    position: center;
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: #FFF;
@@ -217,6 +213,9 @@ img{display:block;}
     color:#2e2f42;
     margin-bottom: 8px;}
 .second{
+    font-weight: 400;
+    font-style: normal;
+    font-family: Roboto;
     color:#434455;
     font-size: 16px;
     line-height: 1.5;
